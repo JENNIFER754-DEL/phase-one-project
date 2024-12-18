@@ -1,0 +1,263 @@
+/* Menu Content Section Styling */
+.coffee_menu_section {
+    background-color: #f4f4f4; /* Light background color for the section */
+    padding: 50px 0; /* Add padding for spacing around the content */
+}
+
+.coffee_menu_section .container {
+    max-width: 1200px; /* Limit the width for better readability */
+}
+
+.menu_taital {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu_text {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+/* Coffee Category Cards */
+.coffee_category_card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coffee_category_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.coffee_category_card img {
+    width: 60%;
+    height: auto;
+    display: block;
+    background-color: grey;
+
+}
+
+.coffee_category_body {
+    padding: 20px;
+}
+
+.coffee_category_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.coffee_category_description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.coffee_category_card .btn {
+    background-color: #5a2a00;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.coffee_category_card .btn:hover {
+    background-color: #7b3c1f;
+}
+
+/* Featured Coffee Section */
+.coffee_item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coffee_item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.coffee_item img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    text-align: left;
+}
+
+.coffee_item_body {
+    padding: 20px;
+}
+
+.coffee_item_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.coffee_item_description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.coffee_item_price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5a2a00;
+    margin-bottom: 20px;
+}
+
+.coffee_item .btn {
+    background-color: #5a2a00;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.coffee_item .btn:hover {
+    background-color: #7b3c1f;
+}
+
+/* Coffee Flavors Section */
+.flavor_title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.flavor_text {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.coffee_flavor_card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coffee_flavor_card img {
+    width: 50%;
+    height: auto;
+    display: block;
+    align-items: flex-end;
+}
+
+.coffee_flavor_body {
+    padding: 20px;
+}
+
+.coffee_flavor_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.coffee_flavor_description {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Special Offers Section */
+.special_offer_title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.special_offer_text {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.special_offer_card {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.special_offer_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.offer_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.offer_description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.special_offer_card .btn {
+    background-color: #d9534f;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.special_offer_card .btn:hover {
+    background-color: #c9302c;
+}
+.image {
+    width: 100%; /* or specific width */
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
